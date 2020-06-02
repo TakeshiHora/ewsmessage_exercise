@@ -1,3 +1,3 @@
 public interface Conversion {
-    void conversion_logic();
+    String conversion_logic();
 }
