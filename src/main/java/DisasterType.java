@@ -1,12 +1,12 @@
 public class DisasterType implements Conversion{
-    private String disasterCode;
+    public String reportCategory;
     
-    public DisasterType(String disasterCode){
-        this.disasterCode = disasterCode;
+    public DisasterType(String reportCategory){
+        this.reportCategory = reportCategory;
     }
     @Override
     public String conversion_logic(){
-        switch (this.disasterCode) {
+        switch (this.reportCategory) {
             case "1":
                 return "気象庁防災情報(緊急地震速報)";
             case "2":
