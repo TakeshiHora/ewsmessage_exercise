@@ -9,7 +9,7 @@ public class CallConversionMT43 {
         //通報区分が「震度」の場合に呼び出す処理
         EarthquakeEarlyWarning earthquakeEarlyWarning = new EarthquakeEarlyWarning(mt43Code.hexCode);
         
-        //通報区分が「震度」の場合に呼び出す処理
+        //通報区分が「津波」の場合に呼び出す処理
         Tsunami tsunami = new Tsunami(mt43Code.hexCode);
     }
 }
