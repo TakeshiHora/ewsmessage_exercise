@@ -1,7 +1,7 @@
 /*
 気象庁防災情報(震度)
  */
-public class EarthquakeEarlyWarning implements Conversion{
+public class EarthquakeEarlyWarning extends Disaster implements Conversion{
     public String hexCode;
     public String preamble;
     public String messageType;

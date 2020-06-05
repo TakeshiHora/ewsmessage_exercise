@@ -1,4 +1,4 @@
-public class Tsunami implements Conversion {
+public class Tsunami extends Disaster implements Conversion {
     public String hexCode;
     public String preamble;
     public String messageType;
